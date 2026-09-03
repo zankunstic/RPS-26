@@ -5,5 +5,19 @@ def hello():
         print(f"hello {x} ♥")
     else:
         print(f"helo {x}")
+
+
+def poštevanka():
+    x=int(input("vnesi število ki želiš poštevanko:  "))
+    i=1
+    while i!=11:
+        print(x*i)
+        i+=1
+    print()
+    for i in range(1,11):
+        print(x*i)
+
+
+
 if __name__ == "__main__":
-    hello()
+    poštevanka()
